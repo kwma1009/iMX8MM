@@ -18,6 +18,7 @@
 #include <miiphy.h>
 #include <mtd_node.h>
 #include <usb.h>
+#include <asm/arch/clock.h>
 
 #include "../common/imx8m_som_detection.h"
 
@@ -120,9 +121,16 @@ static int setup_fec(void)
 		(struct iomuxc_gpr_base_regs *)IOMUXC_GPR_BASE_ADDR;
 
 	/* Use 125M anatop REF_CLK1 for ENET1, not from external */
-	clrsetbits_le32(&gpr->gpr[1], 0x2000, 0);
+	//clrsetbits_le32(&gpr->gpr[1], 0x2000, 0);
 
-	return 0;
+	 /*
+	 * GPR1 bit 13:
+	 * 1:enet1 rmii clock comes from ccm->pad->loopback, SION bit for the pad (iomuxc_sw_input_on_pad_enet_td2) should be set also;
+	 * 0:enet1 rmii clock comes from external phy or osc
+	 */
+
+	setbits_le32(&gpr->gpr[1], 0x2000);
+	return set_clk_enet(ENET_50MHZ);
 }
 
 int board_init(void)

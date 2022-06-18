@@ -33,7 +33,7 @@
 				      13000 1>;
 		#cooling-cells = <2>;
 	};
-
+/*
 	leds {
 		compatible = "gpio-leds";
 		pinctrl-names = "default";
@@ -60,7 +60,7 @@
 			function = LED_FUNCTION_CPU;
 		};
 	};
-
+*/
 	usdhc1_pwrseq: pwr_seq {
 		compatible = "mmc-pwrseq-simple";
 		reset-gpios = <&gpio2 7 GPIO_ACTIVE_LOW>;
@@ -208,6 +208,7 @@
 };
 
 /* USB */
+/*
 &usbotg1 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_usbotg1grp>;
@@ -218,6 +219,7 @@
 	picophy,dc-vol-level-adjust = <7>;
 	status = "okay";
 };
+*/
 
 &usbotg2 {
 	dr_mode = "host";
@@ -327,7 +329,7 @@
 			MX8MM_IOMUXC_I2C4_SDA_GPIO5_IO21        0x1e3
 		>;
 	};
-
+/*
 	pinctrl_leds: leds1grp {
 		fsl,pins = <
 			MX8MM_IOMUXC_GPIO1_IO01_GPIO1_IO1	0x16
@@ -335,7 +337,7 @@
 			MX8MM_IOMUXC_GPIO1_IO15_GPIO1_IO15	0x16
 		>;
 	};
-
+*/
 	pinctrl_pcie: pciegrp {
 		fsl,pins = <
 			/* /PERST */
@@ -383,13 +385,13 @@
 			MX8MM_IOMUXC_GPIO1_IO12_GPIO1_IO12	0x00
 		>;
 	};
-
+/*
 	pinctrl_usbotg1grp: usbotg1grp {
 		fsl,pins = <
 			MX8MM_IOMUXC_GPIO1_IO13_USB1_OTG_OC	0x80
 		>;
 	};
-
+*/
 	pinctrl_usdhc1: usdhc1grp {
 		fsl,pins = <
 			MX8MM_IOMUXC_SD1_CLK_USDHC1_CLK		0x182

@@ -44,7 +44,7 @@
 &fec1 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_fec1>;
-	phy-mode = "rgmii-id";
+	phy-mode = "rmii";
 	phy-handle = <&ethphy0>;
 	fsl,magic-packet;
 	status = "okay";
@@ -57,15 +57,11 @@
 			compatible = "ethernet-phy-ieee802.3-c22";
 			reg = <0>;
 			interrupt-parent = <&gpio1>;
-			interrupts = <0 IRQ_TYPE_EDGE_FALLING>;
-			ti,rx-internal-delay = <DP83867_RGMIIDCTL_2_00_NS>;
-			ti,tx-internal-delay = <DP83867_RGMIIDCTL_2_00_NS>;
-			ti,fifo-depth = <DP83867_PHYCR_FIFO_DEPTH_4_B_NIB>;
-			ti,clk-output-sel = <DP83867_CLK_O_SEL_OFF>;
-			enet-phy-lane-no-swap;
-			reset-gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>;
-			reset-assert-us = <1000>;
-			reset-deassert-us = <1000>;
+			interrupts = <13 IRQ_TYPE_EDGE_FALLING>;
+           	reset-gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
+           	reset-assert-us = <10000>;
+           	reset-deassert-us = <1000>;
+			max-speed = <100>;
 		};
 	};
 };
@@ -332,23 +328,42 @@
 
 &iomuxc {
 	pinctrl_fec1: fec1grp {
+/*
+ * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
+BOARD_InitPins:
+- options: {callFromInitBoot: 'false', coreID: a53_0}
+- pin_list:
+  - {pin_num: AC27, peripheral: ENET1, signal: enet_mdc, pin_signal: ENET_MDC, PE: Disabled, FSEL: SLOW0, DSE: X4_1}
+  - {pin_num: AB27, peripheral: ENET1, signal: enet_mdio, pin_signal: ENET_MDIO, PE: Disabled, FSEL: SLOW0, DSE: X4_1}
+  - {pin_num: AE27, peripheral: ENET1, signal: 'enet_rgmii_rd, 0', pin_signal: ENET_RD0, PE: Disabled, HYS: Enabled, DSE: X1_1}
+  - {pin_num: AD27, peripheral: ENET1, signal: 'enet_rgmii_rd, 1', pin_signal: ENET_RD1, PE: Disabled, HYS: Enabled, DSE: X1_1}
+  - {pin_num: AD26, peripheral: ENET1, signal: 'enet_rgmii_rd, 2', pin_signal: ENET_RD2, PE: Disabled, HYS: Enabled, DSE: X1_1}
+  - {pin_num: AC26, peripheral: ENET1, signal: 'enet_rgmii_rd, 3', pin_signal: ENET_RD3, PE: Disabled, HYS: Enabled, DSE: X1_1}
+  - {pin_num: AE26, peripheral: ENET1, signal: enet_rx_er, pin_signal: ENET_RXC, PE: Disabled, HYS: Enabled, DSE: X1_1}
+  - {pin_num: AF27, peripheral: ENET1, signal: enet_rgmii_rx_ctl, pin_signal: ENET_RX_CTL, PE: Disabled, HYS: Enabled, DSE: X1_1}
+  - {pin_num: AG26, peripheral: ENET1, signal: 'enet_rgmii_td, 0', pin_signal: ENET_TD0, PE: Disabled, FSEL: FAST1, DSE: X6_1}
+  - {pin_num: AF26, peripheral: ENET1, signal: 'enet_rgmii_td, 1', pin_signal: ENET_TD1, PE: Disabled, FSEL: FAST1, DSE: X6_1}
+  - {pin_num: AF24, peripheral: ENET1, signal: enet_rgmii_tx_ctl, pin_signal: ENET_TX_CTL, PE: Disabled, SION: DISABLED, FSEL: FAST1, DSE: X6_1}
+  - {pin_num: AG25, peripheral: ENET1, signal: enet_tx_clk, pin_signal: ENET_TD2, PE: Disabled, SION: ENABLED, FSEL: FAST1, DSE: X6_1}
+  - {pin_num: AF14, peripheral: GPIO1, signal: 'gpio_io, 01', pin_signal: GPIO1_IO01, PE: Disabled, FSEL: FAST1, DSE: X1_1}
+  - {pin_num: AD9, peripheral: GPIO1, signal: 'gpio_io, 13', pin_signal: GPIO1_IO13, PE: Disabled, FSEL: FAST1, DSE: X1_1}
+ * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
+ */
 		fsl,pins = <
-			MX8MM_IOMUXC_ENET_MDC_ENET1_MDC			0x3
-			MX8MM_IOMUXC_ENET_MDIO_ENET1_MDIO		0x3
-			MX8MM_IOMUXC_ENET_TD3_ENET1_RGMII_TD3		0x1f
-			MX8MM_IOMUXC_ENET_TD2_ENET1_RGMII_TD2		0x1f
-			MX8MM_IOMUXC_ENET_TD1_ENET1_RGMII_TD1		0x1f
-			MX8MM_IOMUXC_ENET_TD0_ENET1_RGMII_TD0		0x1f
-			MX8MM_IOMUXC_ENET_RD3_ENET1_RGMII_RD3		0x91
-			MX8MM_IOMUXC_ENET_RD2_ENET1_RGMII_RD2		0x91
-			MX8MM_IOMUXC_ENET_RD1_ENET1_RGMII_RD1		0x91
-			MX8MM_IOMUXC_ENET_RD0_ENET1_RGMII_RD0		0x91
-			MX8MM_IOMUXC_ENET_TXC_ENET1_RGMII_TXC		0x1f
-			MX8MM_IOMUXC_ENET_RXC_ENET1_RGMII_RXC		0x91
-			MX8MM_IOMUXC_ENET_RX_CTL_ENET1_RGMII_RX_CTL	0x91
-			MX8MM_IOMUXC_ENET_TX_CTL_ENET1_RGMII_TX_CTL	0x1f
-			MX8MM_IOMUXC_GPIO1_IO07_GPIO1_IO7		0x19
-			MX8MM_IOMUXC_GPIO1_IO00_GPIO1_IO0		0x19
+                MX8MM_IOMUXC_ENET_MDC_ENET1_MDC            0x00000003
+                MX8MM_IOMUXC_ENET_MDIO_ENET1_MDIO          0x00000003
+                MX8MM_IOMUXC_ENET_RD0_ENET1_RGMII_RD0      0x00000091
+                MX8MM_IOMUXC_ENET_RD1_ENET1_RGMII_RD1      0x00000091
+                MX8MM_IOMUXC_ENET_RD2_ENET1_RGMII_RD2      0x00000091
+                MX8MM_IOMUXC_ENET_RD3_ENET1_RGMII_RD3      0x00000091
+                MX8MM_IOMUXC_ENET_RXC_ENET1_RX_ER          0x00000091
+                MX8MM_IOMUXC_ENET_RX_CTL_ENET1_RGMII_RX_CTL 0x00000091
+                MX8MM_IOMUXC_ENET_TD0_ENET1_RGMII_TD0      0x0000001F
+                MX8MM_IOMUXC_ENET_TD1_ENET1_RGMII_TD1      0x0000001F
+                MX8MM_IOMUXC_ENET_TD2_ENET1_TX_CLK         0x4000001F
+                MX8MM_IOMUXC_ENET_TX_CTL_ENET1_RGMII_TX_CTL 0x0000181F
+                MX8MM_IOMUXC_GPIO1_IO01_GPIO1_IO1          0x00000019
+                MX8MM_IOMUXC_GPIO1_IO13_GPIO1_IO13         0x00000019
 		>;
 	};
 
