@@ -56,12 +56,15 @@
 		ethphy0: ethernet-phy@0 {
 			compatible = "ethernet-phy-ieee802.3-c22";
 			reg = <0>;
+		        adi,rx-internal-delay-ps = <1800>;
+		        adi,tx-internal-delay-ps = <2200>;
+
 			interrupt-parent = <&gpio1>;
 			interrupts = <13 IRQ_TYPE_EDGE_FALLING>;
            	reset-gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
            	reset-assert-us = <10000>;
            	reset-deassert-us = <1000>;
-			max-speed = <100>;
+//			max-speed = <1000>;
 		};
 	};
 };

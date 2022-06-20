@@ -45,6 +45,9 @@
 		ethphy0: ethernet-phy@0 {
 			compatible = "ethernet-phy-ieee802.3-c22";
 			reg = <0x0>;
+		        adi,rx-internal-delay-ps = <1800>;
+		        adi,tx-internal-delay-ps = <2200>;
+
 			interrupt-parent = <&gpio1>;
 			interrupts = <13 IRQ_TYPE_EDGE_FALLING>;
 
