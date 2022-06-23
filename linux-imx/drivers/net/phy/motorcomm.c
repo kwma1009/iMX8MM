@@ -231,7 +231,10 @@ static int ytphy_read_ext(struct phy_device *phydev, u16 regnum)
 	if (ret < 0)
 		return ret;
 
-	return phy_read(phydev, YTPHY_PAGE_DATA);
+	ret = phy_read(phydev, YTPHY_PAGE_DATA);
+	netdev_info(phydev->attached_dev, "%s, regnum 0x%04x (ret 0x%04x)\n",	__func__, regnum, ret);
+
+	return ret;
 }
 
 /**
@@ -245,12 +248,15 @@ static int ytphy_read_ext(struct phy_device *phydev, u16 regnum)
 static int ytphy_write_ext(struct phy_device *phydev, u16 regnum, u16 val)
 {
 	int ret;
+	netdev_info(phydev->attached_dev, "%s, regnum 0x%04x (val 0x%04x)\n",	__func__, regnum, val);
 
 	ret = phy_write(phydev, YTPHY_PAGE_SELECT, regnum);
 	if (ret < 0)
 		return ret;
-
-	return phy_write(phydev, YTPHY_PAGE_DATA, val);
+	
+	ret = phy_write(phydev, YTPHY_PAGE_DATA, val);
+	ytphy_read_ext(phydev, regnum);	
+	return ret;
 }
 
 /**
@@ -270,6 +276,7 @@ static int ytphy_modify_ext(struct phy_device *phydev, u16 regnum, u16 mask,
 {
 	u16 val;
 	int ret;
+	netdev_info(phydev->attached_dev, "%s, regnum 0x%04x\n",	__func__, regnum);
 
 	ret = ytphy_read_ext(phydev, regnum);
 	if (ret < 0)
@@ -279,7 +286,9 @@ static int ytphy_modify_ext(struct phy_device *phydev, u16 regnum, u16 mask,
 	val &= ~mask;
 	val |= set;
 
-	return ytphy_write_ext(phydev, regnum, val);
+	ret = ytphy_write_ext(phydev, regnum, val);
+	ytphy_read_ext(phydev, regnum);
+	return ret;
 }
 
 /**
@@ -840,7 +849,7 @@ static int yt8521_config_init(struct phy_device *phydev)
 		return ret;
 
 	/* enable RXC clock when no wire plug */
-	ret = ytphy_modify_ext(phydev, 0xc, BIT(12), 0);
+	//ret = ytphy_modify_ext(phydev, 0xc, BIT(12), 0);
 	if (ret < 0)
 		return ret;
 
