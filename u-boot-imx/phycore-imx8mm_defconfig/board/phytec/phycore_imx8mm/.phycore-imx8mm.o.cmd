@@ -425,6 +425,10 @@ deps_board/phytec/phycore_imx8mm/phycore-imx8mm.o := \
   ../include/uuid.h \
   ../include/part_efi.h \
     $(wildcard include/config/efi/partition/entries/numbers.h) \
+  include/asm/arch/clock.h \
+    $(wildcard include/config/imx8mm.h) \
+    $(wildcard include/config/imx8mn.h) \
+  include/asm/arch/clock_imx8mm.h \
   ../board/phytec/phycore_imx8mm/../common/imx8m_som_detection.h \
 
 board/phytec/phycore_imx8mm/phycore-imx8mm.o: $(deps_board/phytec/phycore_imx8mm/phycore-imx8mm.o)
