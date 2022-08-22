@@ -1,0 +1,2 @@
+../lib/image-sparse.c:50:13:default_log	0	static
+../lib/image-sparse.c:52:5:write_sparse_image	144	static

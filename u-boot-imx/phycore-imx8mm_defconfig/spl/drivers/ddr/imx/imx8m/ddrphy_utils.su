@@ -1,0 +1,8 @@
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:94:5:wait_ddrphy_training_complete	16	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:113:6:ddrphy_init_set_dfi_clk	16	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:155:6:ddrphy_init_read_msg_block	0	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:159:6:lpddr4_mr_write	0	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:181:14:lpddr4_mr_read	0	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:203:14:look_for_max	0	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:216:6:get_trained_CDD	320	static
+../drivers/ddr/imx/imx8m/ddrphy_utils.c:271:6:update_umctl2_rank_space_setting	128	static

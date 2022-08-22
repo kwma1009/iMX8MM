@@ -1,0 +1,13 @@
+../drivers/pinctrl/pinctrl-uclass.c:109:12:pinconfig_post_bind	80	static
+../drivers/pinctrl/pinctrl-uclass.c:397:27:pinctrl_post_bind	0	static
+../drivers/pinctrl/pinctrl-uclass.c:175:1:pinctrl_gpio_get_pinctrl_and_offset.isra	128	static
+../drivers/pinctrl/pinctrl-uclass.c:225:5:pinctrl_gpio_request	32	static
+../drivers/pinctrl/pinctrl-uclass.c:251:5:pinctrl_gpio_free	32	static
+../drivers/pinctrl/pinctrl-uclass.c:303:5:pinctrl_select_state	112	static
+../drivers/pinctrl/pinctrl-uclass.c:321:5:pinctrl_request	0	static
+../drivers/pinctrl/pinctrl-uclass.c:331:5:pinctrl_request_noflags	0	static
+../drivers/pinctrl/pinctrl-uclass.c:336:5:pinctrl_get_periph_id	0	static
+../drivers/pinctrl/pinctrl-uclass.c:346:5:pinctrl_get_gpio_mux	0	static
+../drivers/pinctrl/pinctrl-uclass.c:356:5:pinctrl_get_pins_count	0	static
+../drivers/pinctrl/pinctrl-uclass.c:366:5:pinctrl_get_pin_name	32	static
+../drivers/pinctrl/pinctrl-uclass.c:379:5:pinctrl_get_pin_muxing	0	static

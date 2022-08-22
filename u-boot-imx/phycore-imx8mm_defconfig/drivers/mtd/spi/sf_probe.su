@@ -1,0 +1,5 @@
+../drivers/mtd/spi/sf_probe.c:105:12:spi_flash_std_write	64	static
+../drivers/mtd/spi/sf_probe.c:95:12:spi_flash_std_read	64	static
+../drivers/mtd/spi/sf_probe.c:133:5:spi_flash_std_probe	48	static
+../drivers/mtd/spi/sf_probe.c:115:12:spi_flash_std_erase	144	static
+../drivers/mtd/spi/sf_probe.c:144:12:spi_flash_std_remove	32	static

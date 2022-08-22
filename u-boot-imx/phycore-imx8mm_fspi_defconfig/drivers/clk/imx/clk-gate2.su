@@ -1,0 +1,4 @@
+../drivers/clk/imx/clk-gate2.c:40:12:clk_gate2_enable	0	static
+../drivers/clk/imx/clk-gate2.c:53:12:clk_gate2_disable	0	static
+../drivers/clk/imx/clk-gate2.c:65:14:clk_gate2_set_rate	32	static
+../drivers/clk/imx/clk-gate2.c:82:13:clk_register_gate2	64	static

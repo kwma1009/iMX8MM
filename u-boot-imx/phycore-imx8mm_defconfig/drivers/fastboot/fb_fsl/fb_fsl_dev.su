@@ -1,0 +1,9 @@
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:66:17:mmc_sparse_reserve	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:101:12:get_fastboot_target_dev	48	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:288:13:process_erase_blkdev	336	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:24:17:mmc_sparse_write	96	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:72:5:write_backup_gpt	32	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:141:13:process_flash_blkdev	400	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:441:6:fastboot_process_erase	32	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:456:6:fastboot_process_flash	32	static
+../drivers/fastboot/fb_fsl/fb_fsl_dev.c:497:6:process_erase_mmc	208	static

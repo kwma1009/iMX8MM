@@ -1,0 +1,15 @@
+../drivers/i2c/i2c_core.c:15:21:i2c_get_adapter	32	static
+../drivers/i2c/i2c_core.c:174:13:i2c_init_bus.part.0	48	static
+../drivers/i2c/i2c_core.c:189:13:i2c_init_board	0	static
+../drivers/i2c/i2c_core.c:194:13:i2c_early_init_f	0	static
+../drivers/i2c/i2c_core.c:219:14:i2c_get_bus_num	0	static
+../drivers/i2c/i2c_core.c:238:5:i2c_set_bus_num	48	static
+../drivers/i2c/i2c_core.c:206:6:i2c_init_all	16	static
+../drivers/i2c/i2c_core.c:275:5:i2c_probe	32	static
+../drivers/i2c/i2c_core.c:292:5:i2c_read	64	static
+../drivers/i2c/i2c_core.c:298:5:i2c_write	64	static
+../drivers/i2c/i2c_core.c:304:14:i2c_set_bus_speed	32	static
+../drivers/i2c/i2c_core.c:317:14:i2c_get_bus_speed	16	static
+../drivers/i2c/i2c_core.c:323:9:i2c_reg_read	32	static
+../drivers/i2c/i2c_core.c:337:6:i2c_reg_write	32	static
+../drivers/i2c/i2c_core.c:347:13:i2c_init	0	static

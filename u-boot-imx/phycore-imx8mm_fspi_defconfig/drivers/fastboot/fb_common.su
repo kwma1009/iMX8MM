@@ -1,0 +1,8 @@
+../drivers/fastboot/fb_common.c:43:6:fastboot_response	160	static
+../drivers/fastboot/fb_common.c:64:6:fastboot_fail	0	static
+../drivers/fastboot/fb_common.c:75:6:fastboot_okay	0	static
+../drivers/fastboot/fb_common.c:93:12:fastboot_set_reboot_flag	0	static
+../drivers/fastboot/fb_common.c:116:8:fastboot_get_progress_callback	0	static
+../drivers/fastboot/fb_common.c:131:6:fastboot_boot	32	static
+../drivers/fastboot/fb_common.c:179:6:fastboot_set_progress_callback	0	static
+../drivers/fastboot/fb_common.c:190:6:fastboot_init	32	static

@@ -1,0 +1,7 @@
+../drivers/serial/serial_mxc.c:207:13:mxc_serial_putc	32	static
+../drivers/serial/serial_mxc.c:200:12:mxc_serial_getc	32	static
+../drivers/serial/serial_mxc.c:224:12:mxc_serial_tstc	0	static
+../drivers/serial/serial_mxc.c:190:13:mxc_serial_setbrg	16	static
+../drivers/serial/serial_mxc.c:248:12:mxc_serial_init	16	static
+../drivers/serial/serial_mxc.c:268:6:mxc_serial_initialize	0	static
+../drivers/serial/serial_mxc.c:273:30:default_serial_console	0	static

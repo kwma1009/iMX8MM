@@ -1,0 +1,5 @@
+../drivers/power/regulator/fixed.c:69:12:fixed_regulator_set_enable	32	static
+../drivers/power/regulator/fixed.c:64:12:fixed_regulator_get_enable	32	static
+../drivers/power/regulator/fixed.c:48:12:fixed_regulator_get_current	16	static
+../drivers/power/regulator/fixed.c:32:12:fixed_regulator_get_value	16	static
+../drivers/power/regulator/fixed.c:17:12:fixed_regulator_of_to_plat	32	static

@@ -1,0 +1,6 @@
+../drivers/thermal/imx_tmu.c:129:12:read_temperature	80	static
+../drivers/thermal/imx_tmu.c:178:5:imx_tmu_get_temp	96	static
+../drivers/thermal/imx_tmu.c:348:12:imx_tmu_bind	64	static
+../drivers/thermal/imx_tmu.c:292:12:imx_tmu_enable_msite.isra	32	static
+../drivers/thermal/imx_tmu.c:254:13:imx_tmu_arch_init	0	static
+../drivers/thermal/imx_tmu.c:435:12:imx_tmu_probe	144	static

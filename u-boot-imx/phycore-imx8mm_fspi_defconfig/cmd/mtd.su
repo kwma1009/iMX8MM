@@ -1,0 +1,10 @@
+../cmd/mtd.c:550:1:complete_mtd	0	static
+../cmd/mtd.c:53:13:mtd_dump_buf	96	static
+../cmd/mtd.c:103:13:mtd_show_parts	64	static
+../cmd/mtd.c:22:25:get_mtd_by_name	32	static
+../cmd/mtd.c:386:12:do_mtd_erase	160	static
+../cmd/mtd.c:198:12:do_mtd_list	64	static
+../cmd/mtd.c:489:12:mtd_name_complete	80	static
+../cmd/mtd.c:243:12:do_mtd_io	192	static
+../cmd/mtd.c:550:1:do_mtd	48	static
+../cmd/mtd.c:458:12:do_mtd_bad	48	static

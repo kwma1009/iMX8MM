@@ -1,0 +1,5 @@
+../cmd/extension_board.c:146:12:do_extensionops	48	static
+../cmd/extension_board.c:62:12:do_extension_list	64	static
+../cmd/extension_board.c:17:12:extension_apply	64	static
+../cmd/extension_board.c:83:12:do_extension_scan	32	static
+../cmd/extension_board.c:103:12:do_extension_apply	48	static

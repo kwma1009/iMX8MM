@@ -1,0 +1,8 @@
+../arch/arm/mach-imx/misc.c:126:13:set_dt_val	32	static
+../arch/arm/mach-imx/misc.c:26:5:mxs_wait_mask_set	48	static
+../arch/arm/mach-imx/misc.c:38:5:mxs_wait_mask_clr	48	static
+../arch/arm/mach-imx/misc.c:50:5:mxs_reset_block	48	static
+../arch/arm/mach-imx/misc.c:91:6:board_lmb_reserve	0	static
+../arch/arm/mach-imx/misc.c:113:6:configure_tzc380	0	static
+../arch/arm/mach-imx/misc.c:139:5:add_dt_path_subnode	32	static
+../arch/arm/mach-imx/misc.c:153:5:add_res_mem_dt_node	192	static

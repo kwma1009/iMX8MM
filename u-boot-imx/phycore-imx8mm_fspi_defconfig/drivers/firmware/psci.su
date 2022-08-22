@@ -1,0 +1,7 @@
+../drivers/firmware/psci.c:73:12:psci_probe	32	static
+../drivers/firmware/psci.c:56:12:psci_bind	32	static
+../drivers/firmware/psci.c:35:29:invoke_psci_fn	64	static
+../drivers/firmware/psci.c:119:27:efi_reset_system	16	static
+../drivers/firmware/psci.c:113:14:efi_reset_system_init	32	static
+../drivers/firmware/psci.c:137:6:reset_misc	32	static
+../drivers/firmware/psci.c:161:6:do_smc_shutdown	16	static

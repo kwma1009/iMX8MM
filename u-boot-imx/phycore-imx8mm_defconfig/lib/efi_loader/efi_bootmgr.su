@@ -1,0 +1,3 @@
+../lib/efi_loader/efi_bootmgr.c:43:14:get_var.constprop	48	static
+../lib/efi_loader/efi_bootmgr.c:77:21:try_load_entry	176	static
+../lib/efi_loader/efi_bootmgr.c:163:14:efi_bootmgr_load	80	static

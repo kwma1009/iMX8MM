@@ -1,0 +1,10 @@
+../drivers/clk/imx/clk-pllv3.c:80:12:clk_pllv3_generic_enable	0	static
+../drivers/clk/imx/clk-pllv3.c:98:12:clk_pllv3_generic_disable	0	static
+../drivers/clk/imx/clk-pllv3.c:237:14:clk_pllv3_enet_get_rate	0	static
+../drivers/clk/imx/clk-pllv3.c:55:14:clk_pllv3_generic_set_rate	32	static
+../drivers/clk/imx/clk-pllv3.c:132:14:clk_pllv3_sys_set_rate	32	static
+../drivers/clk/imx/clk-pllv3.c:123:14:clk_pllv3_sys_get_rate	32	static
+../drivers/clk/imx/clk-pllv3.c:187:14:clk_pllv3_av_set_rate	32	static
+../drivers/clk/imx/clk-pllv3.c:169:14:clk_pllv3_av_get_rate	32	static
+../drivers/clk/imx/clk-pllv3.c:45:14:clk_pllv3_generic_get_rate	32	static
+../drivers/clk/imx/clk-pllv3.c:250:13:imx_clk_pllv3	64	static

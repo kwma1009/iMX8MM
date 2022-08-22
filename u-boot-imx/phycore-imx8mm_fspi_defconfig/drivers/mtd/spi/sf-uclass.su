@@ -1,0 +1,7 @@
+../drivers/mtd/spi/sf-uclass.c:80:12:spi_flash_post_bind	0	static
+../drivers/mtd/spi/sf-uclass.c:18:5:spi_flash_read_dm	0	static
+../drivers/mtd/spi/sf-uclass.c:23:5:spi_flash_write_dm	0	static
+../drivers/mtd/spi/sf-uclass.c:29:5:spi_flash_erase_dm	0	static
+../drivers/mtd/spi/sf-uclass.c:49:6:spi_flash_free	0	static
+../drivers/mtd/spi/sf-uclass.c:54:5:spi_flash_probe_bus_cs	112	static
+../drivers/mtd/spi/sf-uclass.c:38:19:spi_flash_probe	32	static

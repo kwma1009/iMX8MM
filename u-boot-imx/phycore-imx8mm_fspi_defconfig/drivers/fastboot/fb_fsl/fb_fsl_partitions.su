@@ -1,0 +1,13 @@
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:54:14:bootloader_mmc_offset	16	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:78:6:bootloader_gpt_overlay	16	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:270:6:fastboot_flash_add_ptn	32	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:136:12:_fastboot_parts_load_from_ptable.isra	3568	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:262:6:fastboot_load_partitions	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:278:6:fastboot_flash_dump_ptn	48	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:289:26:fastboot_flash_find_ptn	80	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:304:5:fastboot_flash_find_index	32	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:315:26:fastboot_flash_get_ptn	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:323:14:fastboot_flash_get_ptn_count	0	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:328:6:fastboot_parts_is_raw	32	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:372:5:fastboot_parts_get_name	128	static
+../drivers/fastboot/fb_fsl/fb_fsl_partitions.c:400:6:fastboot_parts_is_slot	64	static

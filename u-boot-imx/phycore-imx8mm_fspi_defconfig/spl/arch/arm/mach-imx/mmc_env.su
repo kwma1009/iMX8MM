@@ -1,0 +1,2 @@
+../arch/arm/mach-imx/mmc_env.c:13:12:board_mmc_get_env_dev	0	static
+../arch/arm/mach-imx/mmc_env.c:18:5:mmc_get_env_dev	16	static

@@ -1,0 +1,7 @@
+../board/phytec/common/imx8m_som_detection.c:131:23:_phytec_get_imx8m_opt	0	static
+../board/phytec/common/imx8m_som_detection.c:39:5:_phytec_eeprom_data_init	48	static
+../board/phytec/common/imx8m_som_detection.c:19:5:_phytec_eeprom_data_setup	64	static
+../board/phytec/common/imx8m_som_detection.c:158:19:_phytec_get_imx8m_ddr_size	16	static
+../board/phytec/common/imx8m_som_detection.c:182:19:_phytec_get_imx8m_spi	16	static
+../board/phytec/common/imx8m_som_detection.c:209:19:_phytec_get_imx8m_eth	16	static
+../board/phytec/common/imx8m_som_detection.c:232:21:_phytec_print_som_info	48	static

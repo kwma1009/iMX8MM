@@ -1,0 +1,5 @@
+../drivers/clk/clk-gate.c:47:13:clk_gate_endisable	0	static
+../drivers/clk/clk-gate.c:75:12:clk_gate_enable	16	static
+../drivers/clk/clk-gate.c:82:12:clk_gate_disable	16	static
+../drivers/clk/clk-gate.c:89:5:clk_gate_is_enabled	0	static
+../drivers/clk/clk-gate.c:115:13:clk_register_gate	80	static

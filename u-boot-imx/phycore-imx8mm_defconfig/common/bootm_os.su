@@ -1,0 +1,12 @@
+../common/bootm_os.c:48:13:copy_args	64	static
+../common/bootm_os.c:509:12:do_bootm_efi	32	static
+../common/bootm_os.c:222:12:do_bootm_plan9	48	static
+../common/bootm_os.c:62:12:do_bootm_netbsd	80	static
+../common/bootm_os.c:347:5:do_bootm_vxworks	112	static
+../common/bootm_os.c:384:12:do_bootm_qnxelf	64	static
+../common/bootm_os.c:26:12:do_bootm_standalone	48	static
+../common/bootm_os.c:156:12:do_bootm_rtems	32	static
+../common/bootm_os.c:600:13:arch_preboot_os	0	static
+../common/bootm_os.c:606:13:board_preboot_os	0	static
+../common/bootm_os.c:611:5:boot_selected_os	64	static
+../common/bootm_os.c:629:13:bootm_os_get_boot_func	0	static

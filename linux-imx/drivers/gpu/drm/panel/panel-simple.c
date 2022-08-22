@@ -1879,6 +1879,31 @@ static const struct panel_desc edt_etml1010g0dka = {
 	.bus_flags = DRM_BUS_FLAG_DE_HIGH,
 };
 
+static const struct drm_display_mode phytec_production_dummy_mode = {
+	.clock = 30000,
+	.hdisplay = 1280,
+	.hsync_start = 1280 + 100,
+	.hsync_end = 1280 + 100 + 19,
+	.htotal = 1280 + 100 + 19 + 41,
+	.vdisplay = 800,
+	.vsync_start = 800 + 4,
+	.vsync_end = 800 + 4 + 4,
+	.vtotal = 800 + 4 + 4 + 15,
+	.flags = DRM_MODE_FLAG_PHSYNC | DRM_MODE_FLAG_PVSYNC,
+};
+
+static const struct panel_desc phytec_production_dummy = {
+	.modes = &phytec_production_dummy_mode,
+	.num_modes = 1,
+	.bpc = 8,
+	.size = {
+		.width = 216,
+		.height = 135,
+	},
+	.bus_format = MEDIA_BUS_FMT_RGB888_1X24,
+	.bus_flags = DRM_BUS_FLAG_DE_HIGH,
+};
+
 static const struct drm_display_mode foxlink_fl500wvr00_a0t_mode = {
 	.clock = 32260,
 	.hdisplay = 800,
@@ -4242,6 +4267,9 @@ static const struct of_device_id platform_of_match[] = {
 	}, {
 		.compatible = "nvd,9128",
 		.data = &nvd_9128,
+	}, {
+		.compatible = "phytec,production_dummy",
+		.data = &phytec_production_dummy,
 	}, {
 		.compatible = "okaya,rs800480t-7x0gp",
 		.data = &okaya_rs800480t_7x0gp,

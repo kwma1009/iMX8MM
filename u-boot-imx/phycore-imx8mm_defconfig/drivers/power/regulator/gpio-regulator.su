@@ -1,0 +1,5 @@
+../drivers/power/regulator/gpio-regulator.c:134:12:gpio_regulator_set_enable	32	static
+../drivers/power/regulator/gpio-regulator.c:128:12:gpio_regulator_get_enable	32	static
+../drivers/power/regulator/gpio-regulator.c:102:12:gpio_regulator_set_value	48	static
+../drivers/power/regulator/gpio-regulator.c:80:12:gpio_regulator_get_value	32	static
+../drivers/power/regulator/gpio-regulator.c:28:12:gpio_regulator_of_to_plat	80	static

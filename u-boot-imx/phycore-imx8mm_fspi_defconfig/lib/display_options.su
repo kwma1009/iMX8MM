@@ -1,0 +1,6 @@
+../lib/display_options.c:15:7:display_options_get_banner_priv	64	static
+../lib/display_options.c:38:7:display_options_get_banner	0	static
+../lib/display_options.c:43:5:display_options	224	static
+../lib/display_options.c:53:6:print_freq	48	static
+../lib/display_options.c:93:6:print_size	48	static
+../lib/display_options.c:136:5:print_buffer	208	static

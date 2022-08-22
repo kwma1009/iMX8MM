@@ -1,0 +1,6 @@
+../cmd/setexpr.c:33:12:get_arg	48	static
+../cmd/setexpr.c:142:14:substitute	96	static
+../cmd/setexpr.c:180:5:setexpr_regex_sub	704	dynamic
+../cmd/setexpr.c:313:12:regex_sub_var.part.0	20544	static
+../cmd/setexpr.c:313:12:regex_sub_var	608	static
+../cmd/setexpr.c:364:12:do_setexpr	64	static

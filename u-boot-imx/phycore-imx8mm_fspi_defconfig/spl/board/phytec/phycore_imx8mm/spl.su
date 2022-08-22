@@ -1,0 +1,7 @@
+../board/phytec/phycore_imx8mm/spl.c:34:5:spl_board_boot_device	0	static
+../board/phytec/phycore_imx8mm/spl.c:150:5:board_mmc_init	64	static
+../board/phytec/phycore_imx8mm/spl.c:189:5:board_mmc_getcd	16	static
+../board/phytec/phycore_imx8mm/spl.c:205:6:spl_board_init	0	static
+../board/phytec/phycore_imx8mm/spl.c:217:5:board_fit_config_name_match	0	static
+../board/phytec/phycore_imx8mm/spl.c:234:5:board_early_init_f	16	static
+../board/phytec/phycore_imx8mm/spl.c:249:6:board_init_f	16	static

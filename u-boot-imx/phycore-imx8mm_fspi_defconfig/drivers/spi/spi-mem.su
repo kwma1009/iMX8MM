@@ -1,0 +1,7 @@
+../drivers/spi/spi-mem.c:113:12:spi_check_buswidth_req.isra	0	static
+../drivers/spi/spi-mem.c:148:13:spi_mem_check_buswidth	16	static
+../drivers/spi/spi-mem.c:170:6:spi_mem_dtr_supports_op	0	static
+../drivers/spi/spi-mem.c:190:6:spi_mem_default_supports_op	0	static
+../drivers/spi/spi-mem.c:218:6:spi_mem_supports_op	0	static
+../drivers/spi/spi-mem.c:243:5:spi_mem_exec_op	80	dynamic
+../drivers/spi/spi-mem.c:462:5:spi_mem_adjust_op_size	0	static

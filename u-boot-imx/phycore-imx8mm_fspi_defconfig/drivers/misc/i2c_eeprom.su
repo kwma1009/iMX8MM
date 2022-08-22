@@ -1,0 +1,14 @@
+../drivers/misc/i2c_eeprom.c:296:12:i2c_eeprom_partition_probe	0	static
+../drivers/misc/i2c_eeprom.c:83:12:i2c_eeprom_std_size	16	static
+../drivers/misc/i2c_eeprom.c:351:12:i2c_eeprom_partition_size	16	static
+../drivers/misc/i2c_eeprom.c:60:12:i2c_eeprom_std_write	64	static
+../drivers/misc/i2c_eeprom.c:54:12:i2c_eeprom_std_read	0	static
+../drivers/misc/i2c_eeprom.c:96:12:i2c_eeprom_std_of_to_plat	64	static
+../drivers/misc/i2c_eeprom.c:118:12:i2c_eeprom_std_bind	48	static
+../drivers/misc/i2c_eeprom.c:301:12:i2c_eeprom_partition_of_to_plat	48	static
+../drivers/misc/i2c_eeprom.c:24:5:i2c_eeprom_read	0	static
+../drivers/misc/i2c_eeprom.c:141:12:i2c_eeprom_std_probe	48	static
+../drivers/misc/i2c_eeprom.c:322:12:i2c_eeprom_partition_read	64	static
+../drivers/misc/i2c_eeprom.c:34:5:i2c_eeprom_write	0	static
+../drivers/misc/i2c_eeprom.c:336:12:i2c_eeprom_partition_write	64	static
+../drivers/misc/i2c_eeprom.c:44:5:i2c_eeprom_size	0	static

@@ -1,0 +1,9 @@
+../drivers/clk/clk-divider.c:31:14:clk_divider_get_table_div	0	static
+../drivers/clk/clk-divider.c:56:15:divider_recalc_rate	32	static
+../drivers/clk/clk-divider.c:74:14:clk_divider_recalc_rate	32	static
+../drivers/clk/clk-divider.c:92:6:clk_divider_is_valid_table_div	0	static
+../drivers/clk/clk-divider.c:103:6:clk_divider_is_valid_div	0	static
+../drivers/clk/clk-divider.c:113:14:clk_divider_get_table_val	0	static
+../drivers/clk/clk-divider.c:137:5:divider_get_val	16	static
+../drivers/clk/clk-divider.c:153:14:clk_divider_set_rate	32	static
+../drivers/clk/clk-divider.c:226:13:clk_register_divider	80	static

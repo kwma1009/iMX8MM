@@ -1,0 +1,17 @@
+../drivers/i2c/mxc_i2c.c:204:12:wait_for_sr_state	96	static
+../drivers/i2c/mxc_i2c.c:238:12:tx_byte	16	static
+../drivers/i2c/mxc_i2c.c:268:13:i2c_imx_stop	16	static
+../drivers/i2c/mxc_i2c.c:180:12:bus_i2c_set_bus_speed	48	static
+../drivers/i2c/mxc_i2c.c:820:12:mxc_i2c_set_bus_speed	0	static
+../drivers/i2c/mxc_i2c.c:259:6:__i2c_force_reset_slave	0	static
+../drivers/i2c/mxc_i2c.c:398:5:i2c_idle_bus	0	static
+../drivers/i2c/mxc_i2c.c:515:12:i2c_init_transfer	128	static
+../drivers/i2c/mxc_i2c.c:726:12:bus_i2c_write	64	static
+../drivers/i2c/mxc_i2c.c:754:12:mxc_i2c_write	0	static
+../drivers/i2c/mxc_i2c.c:764:12:mxc_i2c_probe	0	static
+../drivers/i2c/mxc_i2c.c:747:12:mxc_i2c_read	112	static
+../drivers/i2c/mxc_i2c.c:499:6:i2c_early_init_f	0	static
+../drivers/i2c/mxc_i2c.c:647:5:__enable_i2c_clk	0	static
+../drivers/i2c/mxc_i2c.c:742:21:i2c_get_base	0	static
+../drivers/i2c/mxc_i2c.c:769:6:bus_i2c_init	32	static
+../drivers/i2c/mxc_i2c.c:812:13:mxc_i2c_init	0	static

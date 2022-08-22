@@ -1,0 +1,4 @@
+../cmd/sf.c:411:13:show_time	0	static
+../cmd/sf.c:426:13:spi_test_next_stage	32	static
+../cmd/sf.c:77:14:bytes_per_second	32	static
+../cmd/sf.c:553:12:do_spi_flash	224	static

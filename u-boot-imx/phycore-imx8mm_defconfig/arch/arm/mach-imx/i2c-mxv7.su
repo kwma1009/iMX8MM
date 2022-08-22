@@ -1,0 +1,2 @@
+../arch/arm/mach-imx/i2c-mxv7.c:17:5:force_idle_bus	64	static
+../arch/arm/mach-imx/i2c-mxv7.c:101:5:setup_i2c	64	static

@@ -1,0 +1,22 @@
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (C) 2022 PHYTEC Messtechnik GmbH
+ * Author: Teresa Remmet <t.remmet@phytec.de>
+ *
+ * Overlay for DUT SoMs where ethernet phy is populated on
+ * the SoM.
+ */
+
+#include <dt-bindings/interrupt-controller/irq.h>
+
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "phytec,imx8mm-th260";
+};
+
+&ethphy0 {
+	interrupt-parent = <&gpio1>;
+	interrupts = <0 IRQ_TYPE_EDGE_FALLING>;
+};

@@ -1,0 +1,4 @@
+../drivers/core/of_extra.c:14:5:ofnode_read_fmap_entry	48	static
+../drivers/core/of_extra.c:53:5:ofnode_decode_region	48	static
+../drivers/core/of_extra.c:74:5:ofnode_decode_memory_region	160	static
+../drivers/core/of_extra.c:134:6:ofnode_phy_is_fixed_link	64	static

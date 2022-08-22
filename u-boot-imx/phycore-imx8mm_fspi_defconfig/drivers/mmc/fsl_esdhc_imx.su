@@ -1,0 +1,13 @@
+../drivers/mmc/fsl_esdhc_imx.c:1718:12:fsl_esdhc_set_enhanced_strobe	16	static
+../drivers/mmc/fsl_esdhc_imx.c:1732:12:fsl_esdhc_wait_dat0	64	static
+../drivers/mmc/fsl_esdhc_imx.c:1693:12:fsl_esdhc_get_cd	32	static
+../drivers/mmc/fsl_esdhc_imx.c:1442:12:fsl_esdhc_of_to_plat	64	static
+../drivers/mmc/fsl_esdhc_imx.c:1539:12:fsl_esdhc_probe	64	static
+../drivers/mmc/fsl_esdhc_imx.c:1791:12:fsl_esdhc_bind	32	static
+../drivers/mmc/fsl_esdhc_imx.c:410:13:check_and_invalidate_dcache_range.constprop	32	static
+../drivers/mmc/fsl_esdhc_imx.c:880:12:fsl_esdhc_execute_tuning	128	static
+../drivers/mmc/fsl_esdhc_imx.c:1709:12:fsl_esdhc_set_ios	80	static
+../drivers/mmc/fsl_esdhc_imx.c:1700:12:fsl_esdhc_send_cmd	80	static
+../drivers/mmc/fsl_esdhc_imx.c:1412:12:esdhc_status_fixup	0	static
+../drivers/mmc/fsl_esdhc_imx.c:1424:6:fdt_fixup_esdhc	32	static
+../drivers/mmc/fsl_esdhc_imx.c:1438:13:init_clk_usdhc	0	static

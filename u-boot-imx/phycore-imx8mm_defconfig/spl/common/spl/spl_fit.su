@@ -1,0 +1,9 @@
+../common/spl/spl_fit.c:160:12:spl_fit_get_image_node	80	static
+../common/spl/spl_fit.c:502:12:spl_fit_image_get_os	32	static
+../common/spl/spl_fit.c:243:12:spl_load_fit_image	128	static
+../common/spl/spl_fit.c:379:12:spl_fit_append_fdt	112	static
+../common/spl/spl_fit.c:37:13:board_spl_fit_post_load	0	static
+../common/spl/spl_fit.c:41:14:board_spl_fit_size_align	0	static
+../common/spl/spl_fit.c:541:14:board_spl_fit_buffer_addr	32	static
+../common/spl/spl_fit.c:551:13:spl_load_simple_fit_skip_processing	0	static
+../common/spl/spl_fit.c:617:5:spl_load_simple_fit	192	static

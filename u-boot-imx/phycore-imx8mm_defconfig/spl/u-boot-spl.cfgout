@@ -1,0 +1,23 @@
+# 1 "../arch/arm/mach-imx/imx8m/imximage-8mm-lpddr4.cfg"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 31 "<command-line>"
+# 1 "/home/jma/phytec_works/iMX8MM.test_image/build/tmp/work/phyboard_polis_imx8mm_4-phytec-linux/u-boot-imx/2021.04-r0/recipe-sysroot/usr/include/stdc-predef.h" 1 3 4
+# 32 "<command-line>" 2
+# 1 "../arch/arm/mach-imx/imx8m/imximage-8mm-lpddr4.cfg"
+
+
+
+
+
+
+
+FIT
+BOOT_FROM sd
+LOADER spl/u-boot-spl-ddr.bin 0x7E1000
+SECOND_LOADER u-boot.itb 0x40200000 0x60000
+
+DDR_FW lpddr4_pmu_train_1d_imem.bin
+DDR_FW lpddr4_pmu_train_1d_dmem.bin
+DDR_FW lpddr4_pmu_train_2d_imem.bin
+DDR_FW lpddr4_pmu_train_2d_dmem.bin

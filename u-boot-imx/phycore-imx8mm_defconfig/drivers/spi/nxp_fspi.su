@@ -1,0 +1,13 @@
+../drivers/spi/nxp_fspi.c:1048:12:nxp_fspi_set_mode	0	static
+../drivers/spi/nxp_fspi.c:900:12:nxp_fspi_adjust_op_size	32	static
+../drivers/spi/nxp_fspi.c:596:12:nxp_fspi_clk_prep_enable	48	static
+../drivers/spi/nxp_fspi.c:1054:12:nxp_fspi_of_to_plat	64	static
+../drivers/spi/nxp_fspi.c:410:12:nxp_fspi_check_buswidth.constprop	0	static
+../drivers/spi/nxp_fspi.c:423:13:nxp_fspi_supports_op	32	static
+../drivers/spi/nxp_fspi.c:481:12:fspi_readl_poll_tout.isra	48	static
+../drivers/spi/nxp_fspi.c:397:12:fspi_readl.isra	0	static
+../drivers/spi/nxp_fspi.c:389:13:fspi_writel.isra	0	static
+../drivers/spi/nxp_fspi.c:1004:12:nxp_fspi_probe	48	static
+../drivers/spi/nxp_fspi.c:1015:12:nxp_fspi_claim_bus	32	static
+../drivers/spi/nxp_fspi.c:854:12:nxp_fspi_exec_op	128	static
+../drivers/spi/nxp_fspi.c:1029:12:nxp_fspi_set_speed	48	static

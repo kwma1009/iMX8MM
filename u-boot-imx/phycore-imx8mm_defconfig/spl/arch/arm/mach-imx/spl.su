@@ -1,0 +1,6 @@
+../arch/arm/mach-imx/spl.c:27:12:spl_board_boot_device	0	static
+../arch/arm/mach-imx/spl.c:153:5:spl_boot_device	16	static
+../arch/arm/mach-imx/spl.c:185:5:g_dnl_bind_fixup	0	static
+../arch/arm/mach-imx/spl.c:193:5:g_dnl_get_board_bcd_device_number	0	static
+../arch/arm/mach-imx/spl.c:201:5:spl_mmc_boot_mode	16	static
+../arch/arm/mach-imx/spl.c:402:6:board_spl_fit_post_load	0	static

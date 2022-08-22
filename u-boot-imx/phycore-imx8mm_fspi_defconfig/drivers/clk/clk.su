@@ -1,0 +1,4 @@
+../drivers/clk/clk.c:16:5:clk_register	64	static
+../drivers/clk/clk.c:55:7:clk_generic_get_rate	0	static
+../drivers/clk/clk.c:60:13:clk_hw_get_name	0	static
+../drivers/clk/clk.c:68:6:clk_dev_binded	0	static

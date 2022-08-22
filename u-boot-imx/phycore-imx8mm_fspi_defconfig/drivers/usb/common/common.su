@@ -1,0 +1,4 @@
+../drivers/usb/common/common.c:25:18:usb_get_dr_mode	48	static
+../drivers/usb/common/common.c:53:13:usb_speed_string	0	static
+../drivers/usb/common/common.c:60:23:usb_get_maximum_speed	48	static
+../drivers/usb/common/common.c:85:24:usb_get_phy_mode	32	static

@@ -1,0 +1,4 @@
+../drivers/mmc/mmc_boot.c:24:5:mmc_boot_partition_size_change	96	static
+../drivers/mmc/mmc_boot.c:86:5:mmc_set_boot_bus_width	0	static
+../drivers/mmc/mmc_boot.c:101:5:mmc_set_part_conf	32	static
+../drivers/mmc/mmc_boot.c:124:5:mmc_set_rst_n_function	0	static

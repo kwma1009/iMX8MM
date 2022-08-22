@@ -1,0 +1,1 @@
+cmd_spl/drivers/ddr/imx/imx8m/built-in.o :=  aarch64-phytec-linux-ld.bfd     -r -o spl/drivers/ddr/imx/imx8m/built-in.o spl/drivers/ddr/imx/imx8m/helper.o spl/drivers/ddr/imx/imx8m/ddrphy_utils.o spl/drivers/ddr/imx/imx8m/ddrphy_train.o spl/drivers/ddr/imx/imx8m/ddrphy_csr.o spl/drivers/ddr/imx/imx8m/ddr_init.o 

@@ -1,0 +1,1 @@
+cmd_u-boot.img := ./tools/mkimage -f auto -A arm -T firmware -C none -O u-boot -a 0x40200000 -e 0x40200000 -p 0x3000 -n "U-Boot 2021.04"" for phycore_imx8mm board" -E  -b arch/arm/dts/phycore-imx8mm.dtb  -d u-boot-nodtb.bin u-boot.img >/dev/null  && cat /dev/null

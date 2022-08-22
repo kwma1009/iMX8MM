@@ -1,0 +1,3 @@
+../drivers/ddr/imx/imx8m/ddr_init.c:14:6:ddr_cfg_umctl2	0	static
+../drivers/ddr/imx/imx8m/ddr_init.c:90:13:board_dram_ecc_scrub	0	static
+../drivers/ddr/imx/imx8m/ddr_init.c:94:5:ddr_init	48	static

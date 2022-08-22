@@ -1,0 +1,6 @@
+#define PLAIN_VERSION "2021.04"
+#define U_BOOT_VERSION "U-Boot " PLAIN_VERSION
+#define U_BOOT_VERSION_NUM 2021
+#define U_BOOT_VERSION_NUM_PATCH 4
+#define CC_VERSION_STRING "aarch64-phytec-linux-gcc (GCC) 10.2.0"
+#define LD_VERSION_STRING "GNU ld (GNU Binutils) 2.36.1.20210209"

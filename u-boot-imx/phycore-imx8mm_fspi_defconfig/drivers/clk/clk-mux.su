@@ -1,0 +1,7 @@
+../drivers/clk/clk-mux.c:39:5:clk_mux_val_to_index	0	static
+../drivers/clk/clk-mux.c:66:14:clk_mux_index_to_val	0	static
+../drivers/clk/clk-mux.c:117:12:clk_mux_set_parent	48	static
+../drivers/clk/clk-mux.c:83:4:clk_mux_get_parent	16	static
+../drivers/clk/clk-mux.c:158:13:clk_hw_register_mux_table	80	static
+../drivers/clk/clk-mux.c:215:13:clk_register_mux_table	0	static
+../drivers/clk/clk-mux.c:231:13:clk_register_mux	32	static

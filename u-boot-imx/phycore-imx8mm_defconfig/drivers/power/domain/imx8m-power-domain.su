@@ -1,0 +1,8 @@
+../drivers/power/domain/imx8m-power-domain.c:21:12:imx8m_power_domain_request	0	static
+../drivers/power/domain/imx8m-power-domain.c:68:12:imx8m_power_domain_of_xlate	0	static
+../drivers/power/domain/imx8m-power-domain.c:50:12:imx8m_power_domain_off	48	static
+../drivers/power/domain/imx8m-power-domain.c:31:12:imx8m_power_domain_on	48	static
+../drivers/power/domain/imx8m-power-domain.c:108:12:imx8m_power_domain_of_to_plat	32	static
+../drivers/power/domain/imx8m-power-domain.c:74:12:imx8m_power_domain_bind	64	static
+../drivers/power/domain/imx8m-power-domain.c:103:12:imx8m_power_domain_probe	0	static
+../drivers/power/domain/imx8m-power-domain.c:26:12:imx8m_power_domain_free	0	static

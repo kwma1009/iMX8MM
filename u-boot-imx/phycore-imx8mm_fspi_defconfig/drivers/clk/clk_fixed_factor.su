@@ -1,0 +1,2 @@
+../drivers/clk/clk_fixed_factor.c:23:14:clk_fixed_factor_get_rate	32	static
+../drivers/clk/clk_fixed_factor.c:41:12:clk_fixed_factor_of_to_plat	48	static

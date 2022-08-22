@@ -1,0 +1,10 @@
+../cmd/gpt.c:185:13:del_gpt_info	32	static
+../cmd/gpt.c:102:14:extract_val	64	static
+../cmd/gpt.c:165:12:calc_parts_list_len	64	static
+../cmd/gpt.c:43:12:extract_env	96	static
+../cmd/gpt.c:635:12:gpt_enumerate	2272	static
+../cmd/gpt.c:314:12:get_gpt_info	208	static
+../cmd/gpt.c:273:12:create_gpt_partitions_list.constprop	128	static
+../cmd/gpt.c:380:12:set_gpt_info	160	static
+../cmd/gpt.c:235:13:print_gpt_info	96	static
+../cmd/gpt.c:945:12:do_gpt	272	dynamic

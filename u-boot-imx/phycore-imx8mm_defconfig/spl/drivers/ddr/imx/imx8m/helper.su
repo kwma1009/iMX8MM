@@ -1,0 +1,3 @@
+../drivers/ddr/imx/imx8m/helper.c:29:6:ddr_load_train_firmware	48	static
+../drivers/ddr/imx/imx8m/helper.c:115:6:ddrphy_trained_csr_save	0	static
+../drivers/ddr/imx/imx8m/helper.c:132:6:dram_config_save	0	static

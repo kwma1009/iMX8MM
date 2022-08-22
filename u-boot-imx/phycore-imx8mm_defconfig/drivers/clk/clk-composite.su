@@ -1,0 +1,6 @@
+../drivers/clk/clk-composite.c:85:12:clk_composite_disable	32	static
+../drivers/clk/clk-composite.c:72:12:clk_composite_enable	32	static
+../drivers/clk/clk-composite.c:33:12:clk_composite_set_parent	32	static
+../drivers/clk/clk-composite.c:59:14:clk_composite_set_rate	32	static
+../drivers/clk/clk-composite.c:46:22:clk_composite_recalc_rate	32	static
+../drivers/clk/clk-composite.c:98:13:clk_register_composite	96	static

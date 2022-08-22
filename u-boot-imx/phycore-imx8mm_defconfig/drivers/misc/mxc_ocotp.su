@@ -1,0 +1,10 @@
+../drivers/misc/mxc_ocotp.c:210:12:finish_access	16	static
+../drivers/misc/mxc_ocotp.c:171:13:wait_busy	32	static
+../drivers/misc/mxc_ocotp.c:182:12:prepare_access	48	static
+../drivers/misc/mxc_ocotp.c:286:13:set_timing	32	static
+../drivers/misc/mxc_ocotp.c:159:5:fuse_bank_physical	0	static
+../drivers/misc/mxc_ocotp.c:164:5:fuse_word_physical	0	static
+../drivers/misc/mxc_ocotp.c:235:5:fuse_read	64	static
+../drivers/misc/mxc_ocotp.c:333:5:fuse_sense	80	static
+../drivers/misc/mxc_ocotp.c:394:5:fuse_prog	80	static
+../drivers/misc/mxc_ocotp.c:449:5:fuse_override	64	static

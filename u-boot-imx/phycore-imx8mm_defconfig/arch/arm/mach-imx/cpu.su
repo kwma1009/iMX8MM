@@ -1,0 +1,11 @@
+../arch/arm/mach-imx/cpu.c:40:5:get_imx_reset_cause	0	static
+../arch/arm/mach-imx/cpu.c:59:14:get_reset_cause	16	static
+../arch/arm/mach-imx/cpu.c:103:6:get_reboot_reason	16	static
+../arch/arm/mach-imx/cpu.c:116:13:get_imx_type	0	static
+../arch/arm/mach-imx/cpu.c:280:5:cpu_eth_init	0	static
+../arch/arm/mach-imx/cpu.c:296:5:cpu_mmc_init	0	static
+../arch/arm/mach-imx/cpu.c:316:6:arch_preboot_os	0	static
+../arch/arm/mach-imx/cpu.c:406:5:get_cpu_speed_grade_hz	32	static
+../arch/arm/mach-imx/cpu.c:452:5:get_cpu_temp_grade	48	static
+../arch/arm/mach-imx/cpu.c:202:5:print_cpuinfo	64	static
+../arch/arm/mach-imx/cpu.c:487:18:get_boot_device	16	static

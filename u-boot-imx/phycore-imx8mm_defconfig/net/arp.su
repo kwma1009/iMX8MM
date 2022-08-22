@@ -1,0 +1,6 @@
+../net/arp.c:44:6:arp_init	0	static
+../net/arp.c:55:6:arp_raw_request	96	static
+../net/arp.c:85:6:arp_request	48	static
+../net/arp.c:102:5:arp_timeout_check	32	static
+../net/arp.c:127:6:arp_receive	80	static
+../net/arp.c:242:6:arp_is_waiting	0	static

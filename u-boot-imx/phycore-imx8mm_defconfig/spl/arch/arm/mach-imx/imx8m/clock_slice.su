@@ -1,0 +1,9 @@
+../arch/arm/mach-imx/imx8m/clock_slice.c:1610:12:select	0	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1625:22:get_clk_root_target	0	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1664:5:clock_get_target_val	16	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1687:5:clock_set_target_val	16	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1710:5:clock_root_enabled	16	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1747:5:clock_enable	0	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1764:5:clock_get_prediv	16	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1801:5:clock_get_postdiv	16	static
+../arch/arm/mach-imx/imx8m/clock_slice.c:1844:5:clock_get_src	16	static

@@ -1,0 +1,1 @@
+cmd_drivers/clk/imx/built-in.o :=  aarch64-phytec-linux-ld.bfd     -r -o drivers/clk/imx/built-in.o drivers/clk/imx/clk-gate2.o drivers/clk/imx/clk-pllv3.o drivers/clk/imx/clk-pfd.o drivers/clk/imx/clk-imx8mm.o drivers/clk/imx/clk-pll14xx.o drivers/clk/imx/clk-composite-8m.o 

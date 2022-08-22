@@ -52,7 +52,6 @@
 	"ip_dyn=no\0" \
 	"bootenv=bootenv.txt\0" \
 	"mmc_load_bootenv=fatload mmc ${mmcdev}:${mmcpart} ${bootenv_addr} ${bootenv}\0" \
-	"mtdparts=30bb0000.spi:3840k(u-boot),128k(env),128k(env_redund),-(none)\0" \
 	"mtdids=nor0=30bb0000.spi\0" \
 	"spiprobe=true\0" \
 	"emmc_dev=2\0" \

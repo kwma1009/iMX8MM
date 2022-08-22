@@ -1,0 +1,9 @@
+../lib/efi_loader/efi_var_common.c:184:1:efi_get_variable_runtime	32	static
+../lib/efi_loader/efi_var_common.c:199:1:efi_get_next_variable_name_runtime	0	static
+../lib/efi_loader/efi_var_common.c:55:21:efi_get_variable	64	static
+../lib/efi_loader/efi_var_common.c:89:21:efi_set_variable	64	static
+../lib/efi_loader/efi_var_common.c:120:21:efi_get_next_variable_name	48	static
+../lib/efi_loader/efi_var_common.c:152:21:efi_query_variable_info	48	static
+../lib/efi_loader/efi_var_common.c:311:14:efi_init_secure_state	64	static
+../lib/efi_loader/efi_var_common.c:345:6:efi_secure_boot_enabled	0	static
+../lib/efi_loader/efi_var_common.c:350:24:efi_auth_var_get_type	64	static

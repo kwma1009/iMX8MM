@@ -1,0 +1,6 @@
+../drivers/clk/imx/clk-imx8mm.c:191:12:imx8mm_clk_set_parent	48	static
+../drivers/clk/imx/clk-imx8mm.c:148:14:imx8mm_clk_set_rate	48	static
+../drivers/clk/imx/clk-imx8mm.c:134:14:imx8mm_clk_get_rate	32	static
+../drivers/clk/imx/clk-imx8mm.c:220:12:imx8mm_clk_probe	144	static
+../drivers/clk/imx/clk-imx8mm.c:186:12:imx8mm_clk_enable	32	static
+../drivers/clk/imx/clk-imx8mm.c:181:12:imx8mm_clk_disable	32	static

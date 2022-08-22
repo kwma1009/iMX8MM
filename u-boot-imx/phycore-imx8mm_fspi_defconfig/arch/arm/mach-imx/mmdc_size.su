@@ -1,0 +1,4 @@
+../arch/arm/mach-imx/mmdc_size.c:79:14:imx_ddr_size	0	static
+../arch/arm/mach-imx/mmdc_size.c:99:14:imx_ddrc_count_bits	0	static
+../arch/arm/mach-imx/mmdc_size.c:108:17:imx_ddrc_sdram_size	96	static
+../arch/arm/mach-imx/mmdc_size.c:171:17:imx8m_ddrc_sdram_size	80	static

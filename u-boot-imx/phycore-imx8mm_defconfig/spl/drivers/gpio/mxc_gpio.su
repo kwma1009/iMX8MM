@@ -1,0 +1,6 @@
+../drivers/gpio/mxc_gpio.c:136:5:gpio_set_value	0	static
+../drivers/gpio/mxc_gpio.c:166:5:gpio_get_value	0	static
+../drivers/gpio/mxc_gpio.c:191:5:gpio_request	0	static
+../drivers/gpio/mxc_gpio.c:203:5:gpio_free	0	static
+../drivers/gpio/mxc_gpio.c:208:5:gpio_direction_input	0	static
+../drivers/gpio/mxc_gpio.c:213:5:gpio_direction_output	16	static

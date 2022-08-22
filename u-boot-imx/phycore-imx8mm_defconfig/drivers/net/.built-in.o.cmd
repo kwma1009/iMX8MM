@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  aarch64-phytec-linux-ld.bfd     -r -o drivers/net/built-in.o drivers/net/fec_mxc.o drivers/net/qe/built-in.o drivers/net/ti/built-in.o drivers/net/mscc_eswitch/built-in.o 

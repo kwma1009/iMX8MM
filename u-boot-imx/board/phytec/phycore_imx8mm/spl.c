@@ -52,22 +52,29 @@ int spl_board_boot_device(enum boot_device boot_dev_spl)
 static void spl_dram_init(void)
 {
 	int ret;
+	int size = 0;
 
-	ret = phytec_eeprom_data_init(0, EEPROM_ADDR);
-	if (ret) {
-		printf("phytec_eeprom_data_init: init failed. "
-		       "Trying fall back address 0x%x\n", EEPROM_ADDR_FALLBACK);
-		ret = phytec_eeprom_data_init(0,
-					      EEPROM_ADDR_FALLBACK);
-		if (ret)
-			goto err;
+	ret = phytec_eeprom_data_setup(0, EEPROM_ADDR, EEPROM_ADDR_FALLBACK);
+	if (ret && !IS_ENABLED(CONFIG_PHYCORE_IMX8MM_RAM_SIZE_FIX))
+		goto err;
+
+	if (!ret) {
+		printf("phytec_eeprom_data_init: init successful\n");
+		phytec_print_som_info();
 	}
 
-	printf("phytec_eeprom_data_init: init successful\n");
+	if(IS_ENABLED(CONFIG_PHYCORE_IMX8MM_RAM_SIZE_FIX)) {
+		if(IS_ENABLED(CONFIG_PHYCORE_IMX8MM_RAM_SIZE_1GB))
+			size = 1;
+		else if(IS_ENABLED(CONFIG_PHYCORE_IMX8MM_RAM_SIZE_2GB))
+			size = 3;
+		else if(IS_ENABLED(CONFIG_PHYCORE_IMX8MM_RAM_SIZE_4GB))
+			size = 5;
+	} else {
+		size = phytec_get_imx8m_ddr_size();
+	}
 
-	phytec_print_som_info();
-
-	switch (phytec_get_imx8m_ddr_size()) {
+	switch (size) {
 	case 1:
 		dram_timing_1gb.ddrphy_cfg[82].val = 0x3;
 		dram_timing_1gb.ddrphy_cfg[83].val = 0x3;
