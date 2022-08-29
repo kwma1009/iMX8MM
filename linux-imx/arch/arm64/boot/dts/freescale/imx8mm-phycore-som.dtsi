@@ -56,8 +56,8 @@
 		ethphy0: ethernet-phy@0 {
 			compatible = "ethernet-phy-ieee802.3-c22";
 			reg = <0>;
-			interrupt-parent = <&gpio1>;
-			interrupts = <13 IRQ_TYPE_EDGE_FALLING>;
+//			interrupt-parent = <&gpio1>;
+//			interrupts = <13 IRQ_TYPE_EDGE_FALLING>;
            	reset-gpios = <&gpio1 1 GPIO_ACTIVE_LOW>;
            	reset-assert-us = <10000>;
            	reset-deassert-us = <1000>;
@@ -363,7 +363,7 @@ BOARD_InitPins:
                 MX8MM_IOMUXC_ENET_TD2_ENET1_TX_CLK         0x4000001F
                 MX8MM_IOMUXC_ENET_TX_CTL_ENET1_RGMII_TX_CTL 0x0000181F
                 MX8MM_IOMUXC_GPIO1_IO01_GPIO1_IO1          0x00000019
-                MX8MM_IOMUXC_GPIO1_IO13_GPIO1_IO13         0x00000019
+                /*MX8MM_IOMUXC_GPIO1_IO13_GPIO1_IO13         0x00000019 */
 		>;
 	};
 
